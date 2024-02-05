@@ -4,11 +4,11 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.Pane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="191.0" prefWidth="220.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <Button fx:id="close" layoutX="40.0" layoutY="111.0" mnemonicParsing="false" prefWidth="57.0" text="閉じる" textAlignment="CENTER" />
-      <Label layoutX="51.0" layoutY="63.0" text="画面を閉じていいですか?" />
-      <Label fx:id="test" layoutX="89.0" layoutY="160.0" prefHeight="17.0" prefWidth="34.0" textAlignment="JUSTIFY" />
-      <Button fx:id="noclose" layoutX="130.0" layoutY="111.0" mnemonicParsing="false" prefWidth="57.0" text="閉じない" />
-   </children>
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="191.0"
+      prefWidth="220.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <Button fx:id="close" layoutX="40.0" layoutY="111.0" mnemonicParsing="false" prefWidth="57.0" text="閉じる"
+           textAlignment="CENTER"/>
+   <Label layoutX="51.0" layoutY="63.0" text="画面を閉じていいですか?"/>
+   <Label fx:id="test" layoutX="89.0" layoutY="160.0" prefHeight="17.0" prefWidth="34.0" textAlignment="JUSTIFY"/>
+   <Button fx:id="noclose" layoutX="130.0" layoutY="111.0" mnemonicParsing="false" prefWidth="57.0" text="閉じない"/>
 </Pane>

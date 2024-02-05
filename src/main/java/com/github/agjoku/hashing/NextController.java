@@ -19,7 +19,6 @@ public class NextController {
     final Clipboard clipboard = Clipboard.getSystemClipboard();
     final ClipboardContent content = new ClipboardContent();
 
-    private String str;
     private final Stage stage;
     private final HashController hashController;
 
@@ -53,7 +52,7 @@ public class NextController {
     @FXML
     private void initialize() throws NoSuchAlgorithmException {
         Hashing hashing = new Hashing();
-        str = hashController.getEnteredText();
+        String str = hashController.getEnteredText();
         md5field.setText(hashing.md5(str));
         sha1field.setText(hashing.sha1(str));
         sha256field.setText(hashing.sha256(str));

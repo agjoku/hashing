@@ -18,11 +18,7 @@ public class HashController {
 
     @FXML private Label emptylabel;
 
-    public String[] strings;
-
     private final Stage stage;
-
-    Hashing hashing = new Hashing();
 
     public HashController(){
         stage = new Stage();
@@ -46,9 +42,7 @@ public class HashController {
         nextPagebutton.setOnAction(event -> nextPageButtonClick());
     }
 
-    public String getEnteredText() throws NoSuchAlgorithmException  {
-        Hashing hashing = new Hashing();
-        String str = hashing.md5(hashTextField.getText());
+    public String getEnteredText() {
         return hashTextField.getText();
     }
 

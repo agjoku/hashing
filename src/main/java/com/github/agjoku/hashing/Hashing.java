@@ -44,8 +44,7 @@ public class Hashing {
         for (byte i : b) {
             sb.append(String.format("%02x", i));
         }
-        String ret = sb.toString();
 
-        return ret;
+        return sb.toString();
     }
 }
